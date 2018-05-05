@@ -1,0 +1,70 @@
+body {
+	background: rgb(68, 204, 169);
+	padding: 20px;
+
+}
+
+.container {
+	padding: 0;
+	margin-left: 40vw;
+	margin-top: 2.5rem;
+	width: 20vw;
+	height: 20vw;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.row {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.square {
+	background: rgb(235, 95, 128);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: .25px groove black;
+
+
+}
+
+.reset {
+	border: .4rem solid black;
+	border-radius: .5rem;
+	margin: 1rem;
+	margin-left: 52rem;
+	font-size: 1.25rem;
+	padding: 1rem .5rem;
+	transition: all .07s ease;
+	width: 10rem;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;
+
+}
+
+.title {
+	border: .4rem solid black;
+	border-radius: .5rem;
+	margin: 1rem;
+	margin-left: 40rem;
+	font-size: 3.25rem;
+	padding: 1rem .5rem;
+	transition: all .07s ease;
+	width: 35rem;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;
+
+}
+
+.title p {
+	font-size: 1.25rem;
+}
